@@ -43,13 +43,23 @@ local prios = {
 
 	-- Mage
 	[62] = { -- Arcane
-		STAT_MASTERY
+		STAT_MASTERY,
+		STAT_CRITICAL_STRIKE,
+		STAT_VERSATILITY,
+		STAT_HASTE,
 	},
 	[63] = { -- Fire
-		STAT_CRITICAL_STRIKE
+		STAT_CRITICAL_STRIKE,
+		STAT_MASTERY,
+		STAT_HASTE,
+		STAT_VERSATILITY,
 	},
 	[64] = { -- Frost
-		STAT_HASTE
+		STAT_HASTE,
+		STAT_CRITICAL_STRIKE.. " (to 36.33%)",
+		STAT_VERSATILITY,
+		STAT_MASTERY,
+		STAT_CRITICAL_STRIKE.. " (above 36.33%)",
 	},
 
 	-- [268] = "MONK_BREW",
@@ -59,12 +69,21 @@ local prios = {
 	-- Paladin
 	[65] = { -- Holy
 		STAT_CRITICAL_STRIKE,
+		STAT_MASTERY,
+		STAT_VERSATILITY,
+		STAT_HASTE,
 	},
 	[66] = { -- Protection
 		STAT_VERSATILITY,
+		STAT_HASTE,
+		STAT_MASTERY,
+		STAT_CRITICAL_STRIKE,
 	},
 	[70] = { -- Retribution
 		STAT_HASTE,
+		STAT_CRITICAL_STRIKE,
+		STAT_MASTERY,
+		STAT_VERSATILITY,
 	},
 
 	-- Priest
