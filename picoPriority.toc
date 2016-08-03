@@ -1,7 +1,7 @@
 ## Interface: 70000
 
 ## Title: picoPriority
-## Notes: A stat priority Data Broker plugin.
+## Notes: A stat priority Data Broker plugin
 ## Author: Tekkub Stoutwrithe
 
 ## OptionalDeps: tekDebug, tekErr
