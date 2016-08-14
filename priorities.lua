@@ -113,8 +113,29 @@ local prios = {
 	-- [72] = "WARRIOR_FURY",
 	-- [73] = "WARRIOR_PROT",
 
-	-- [577] = "DH_HAVOC",
-	-- [581] = "DH_VENGEANCE",
+	-- Demon Hunter
+	[577] = { -- Havoc
+		STAT_CRITICAL_STRIKE,
+		STAT_VERSATILITY,
+		STAT_HASTE,
+		STAT_MASTERY
+	},
+	[581] = { -- Vengeance
+		{
+			title="Survivability",
+			STAT_VERSATILITY,
+			STAT_HASTE,
+			STAT_MASTERY,
+			STAT_CRITICAL_STRIKE
+		},
+		{
+			title="Damage Output",
+			STAT_MASTERY,
+			STAT_CRITICAL_STRIKE,
+			STAT_VERSATILITY,
+			STAT_HASTE
+		}
+	}
 }
 
 
