@@ -118,7 +118,7 @@ local prios = {
 		STAT_CRITICAL_STRIKE,
 		STAT_VERSATILITY,
 		STAT_HASTE,
-		STAT_MASTERY
+		STAT_MASTERY,
 	},
 	[581] = { -- Vengeance
 		{
@@ -126,14 +126,14 @@ local prios = {
 			STAT_VERSATILITY,
 			STAT_HASTE,
 			STAT_MASTERY,
-			STAT_CRITICAL_STRIKE
+			STAT_CRITICAL_STRIKE,
 		},
 		{
 			title="Damage Output",
 			STAT_MASTERY,
 			STAT_CRITICAL_STRIKE,
 			STAT_VERSATILITY,
-			STAT_HASTE
+			STAT_HASTE,
 		}
 	}
 }
