@@ -101,9 +101,26 @@ local prios = {
 	-- [260] = "ROGUE_COMBAT",
 	-- [261] = "ROGUE_SUB",
 
-	-- [262] = "SHAMAN_ELE",
-	-- [263] = "SHAMAN_ENHANCE",
-	-- [264] = "SHAMAN_RESTO",
+	[262] = { -- Elemental
+		STAT_CRITICAL_STRIKE,
+		STAT_HASTE,
+		STAT_VERSATILITY,
+		STAT_MASTERY,
+	},
+
+	[263] = { -- Enhancement
+		STAT_CRITICAL_STRIKE,
+		STAT_HASTE,
+		STAT_VERSATILITY,
+		STAT_MASTERY,
+	},
+
+	[264] = { -- Restoration
+		STAT_MASTERY,
+		STAT_CRITICAL_STRIKE,
+		STAT_HASTE,
+		STAT_VERSATILITY,
+	},
 
 	-- [265] = "WARLOCK_AFFLICTION",
 	-- [266] = "WARLOCK_DEMO",
