@@ -101,20 +101,19 @@ local prios = {
 	-- [260] = "ROGUE_COMBAT",
 	-- [261] = "ROGUE_SUB",
 
+	-- Shaman
 	[262] = { -- Elemental
 		STAT_CRITICAL_STRIKE,
 		STAT_HASTE,
 		STAT_VERSATILITY,
 		STAT_MASTERY,
 	},
-
 	[263] = { -- Enhancement
-		STAT_CRITICAL_STRIKE,
-		STAT_HASTE,
-		STAT_VERSATILITY,
 		STAT_MASTERY,
+		STAT_HASTE,
+		STAT_CRITICAL_STRIKE,
+		STAT_VERSATILITY,
 	},
-
 	[264] = { -- Restoration
 		STAT_MASTERY,
 		STAT_CRITICAL_STRIKE,
