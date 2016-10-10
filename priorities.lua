@@ -9,10 +9,31 @@ local prios = {
 	-- [251] = "DK_FROST",
 	-- [252] = "DK_UNHOLY",
 
-	-- [102] = "DRUID_BALANCE",
-	-- [103] = "DRUID_FERAL",
-	-- [104] = "DRUID_GUARDIAN",
-	-- [105] = "DRUID_RESTO",
+	-- Druid
+	[102] = { -- Balance
+		STAT_HASTE,
+		STAT_CRITICAL_STRIKE,
+		STAT_VERSATILITY,
+		STAT_MASTERY,
+	},
+	[103] = { -- Feral
+		STAT_MASTERY,
+		STAT_CRITICAL_STRIKE,
+		STAT_VERSATILITY,
+		STAT_HASTE,
+	},
+	[104] = { -- Guardian
+		STAT_VERSATILITY,
+		STAT_MASTERY,
+		STAT_HASTE,
+		STAT_CRITICAL_STRIKE,
+	},
+	[105] = { -- Restoration
+		STAT_HASTE,
+		STAT_CRITICAL_STRIKE,
+		STAT_MASTERY,
+		STAT_VERSATILITY,
+	},
 
 	-- Hunter
 	[253] = { -- Beast master
