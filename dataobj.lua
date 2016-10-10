@@ -15,11 +15,13 @@ function ns.ACTIVE_TALENT_GROUP_CHANGED()
 	if specIndex then
 		local specID = GetSpecializationInfo(specIndex)
 		local priorities = ns.priorities[specID]
-		local stat = priorities[1]
-		if type(stat) == "table" then
-			stat = stat[1]
+		local stat1 = priorities[1]
+		local stat2 = priorities[2]
+		if type(stat1) == "table" then
+			stat1 = stat1[1]
+			stat2 = stat1[2]
 		end
-		ns.dataobj.text = stat
+		ns.dataobj.text = stat1.. ", ".. stat2
 	else
 		ns.dataobj.text = "???"
 	end
