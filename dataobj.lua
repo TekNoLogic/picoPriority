@@ -21,7 +21,11 @@ function ns.ACTIVE_TALENT_GROUP_CHANGED()
 			stat1 = stat1[1]
 			stat2 = stat1[2]
 		end
-		ns.dataobj.text = stat1.. ", ".. stat2
+		if stat2 then
+			ns.dataobj.text = stat1.. ", ".. stat2
+		else
+			ns.dataobj.text = stat1
+		end
 	else
 		ns.dataobj.text = "???"
 	end
