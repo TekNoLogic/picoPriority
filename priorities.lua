@@ -132,8 +132,8 @@ local prios = {
 	[263] = { -- Enhancement
 		STAT_MASTERY,
 		STAT_HASTE,
-		STAT_CRITICAL_STRIKE,
 		STAT_VERSATILITY,
+		STAT_CRITICAL_STRIKE,
 	},
 	[264] = { -- Restoration
 		STAT_MASTERY,
