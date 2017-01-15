@@ -83,9 +83,32 @@ local prios = {
 		STAT_CRITICAL_STRIKE.. " (above 36.33%)",
 	},
 
-	-- [268] = "MONK_BREW",
-	-- [270] = "MONK_MIST",
-	-- [269] = "MONK_WIND",
+	-- Monk
+	-- [268] = {}, -- Brewmaster
+	[270] = { -- Mistweaver
+		{
+			title="Dungeons",
+			STAT_HASTE,
+			STAT_MASTERY,
+			STAT_CRITICAL_STRIKE,
+			STAT_VERSATILITY
+		},
+		{
+			title="Raids",
+			STAT_CRITICAL_STRIKE,
+			STAT_VERSATILITY,
+			STAT_HASTE,
+			STAT_MASTERY
+		},
+		{
+			title="Fistweaving",
+			STAT_HASTE,
+			STAT_CRITICAL_STRIKE,
+			STAT_VERSATILITY,
+			STAT_MASTERY
+		}
+	},
+	-- [269] = {}, -- Windwalker
 
 	-- Paladin
 	[65] = { -- Holy
