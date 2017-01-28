@@ -84,7 +84,14 @@ local prios = {
 	},
 
 	-- Monk
-	-- [268] = {}, -- Brewmaster
+	[268] = { -- Brewmaster
+		STAT_HASTE.." (to 15%)",
+		STAT_VERSATILITY,
+		STAT_MASTERY,
+		STAT_HASTE.." (to 33.4%)",
+		STAT_CRITICAL_STRIKE,
+		STAT_HASTE.." (above 33.4%)"
+	},
 	[270] = { -- Mistweaver
 		{
 			title="Dungeons",
@@ -108,7 +115,12 @@ local prios = {
 			STAT_MASTERY
 		}
 	},
-	-- [269] = {}, -- Windwalker
+	[269] = { -- Windwalker
+		STAT_MASTERY,
+		STAT_CRITICAL_STRIKE,
+		STAT_VERSATILITY,
+		STAT_HASTE
+	},
 
 	-- Paladin
 	[65] = { -- Holy
